@@ -1,0 +1,46 @@
+.optic {
+  .lineContainer {
+    background-color: #edf9fe;
+    margin: 5px 0;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+
+    p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .choices {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+    }
+
+    .true {
+      border: 1px solid #4993b1;
+      border-radius: 50%;
+      width: 20px;
+      text-align: center;
+      color: #fff;
+      background-color: #4993b1 !important;
+      color: #fff !important;
+    }
+
+    .default {
+      border: 1px solid #4993b1;
+      border-radius: 50%;
+      width: 20px;
+      text-align: center;
+      color: #4993b1;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}

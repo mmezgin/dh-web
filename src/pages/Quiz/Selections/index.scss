@@ -1,0 +1,57 @@
+.selections {
+  p {
+    margin: 0;
+  }
+
+  .answerText {
+    color: #2c3e50;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  .answerContainer {
+    position: relative;
+    width: calc(100% - 90px);
+    padding: 12px 68px 12px 8px;
+    background-color: #f8fafb;
+    margin: 6px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .answerContainer:hover {
+    cursor: pointer;
+    background-color: #eff2f4;
+  }
+
+  .answerContainer:hover > .answerButton {
+    display: flex;
+  }
+
+  .answerButton {
+    position: absolute;
+    right: 20px;
+    display: none;
+    background-color: #1ba78c;
+    color: #fff;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 10px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+  }
+
+  .correct {
+    color: #1abc9c !important;
+    background-color: #f4fcfa !important;
+  }
+
+  .wrong {
+    color: #fff !important;
+    background-color: #f85050 !important;
+  }
+}
